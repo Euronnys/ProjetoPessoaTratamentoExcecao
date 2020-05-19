@@ -46,7 +46,7 @@ namespace ProjetoPessoa
                 }
                 else
                 {
-                    throw new Exception("A altura deve ser acima de 1m.");
+                    throw new Exception("A altura deve ser acima de 1metro.");
                 }
             }
             get { return this.altura; }
