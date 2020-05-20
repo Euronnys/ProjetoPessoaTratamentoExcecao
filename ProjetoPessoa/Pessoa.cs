@@ -24,7 +24,7 @@ namespace ProjetoPessoa
                 }
                 else
                 {
-                    throw new Exception("O nome deve ser obrigatoriamente preenchido.");
+                    throw new Exception("O nome deve ser obrigatoriamente preenchido pelo usuário.");
                 }
             }
             get { return this.nome; }
